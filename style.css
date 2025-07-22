@@ -1,0 +1,180 @@
+body{ background-color: hsl(0, 0%, 100%);
+      display: flex;
+      height: 100vh; /* Full viewport height */
+      margin: 0; /* Remove default margin */
+      padding: 0; /* Remove default padding */
+      background-color:hsl(218, 22%, 85%) ;
+      justify-content: center;
+      align-items: center;
+      font-family:'Karla', sans-serif;}
+
+.container {background-color: white;
+            display: flex;
+            flex-direction: column;
+            height: 410px;
+            width: 610px;
+            border-radius: 10px;}
+
+.top-container {height: 47%;
+               display: flex;
+               flex-direction: column;}
+
+.top-container .join-our {color:  hsl(179, 62%, 43%);
+                          font-weight: 600;
+                          font-size: 20px;
+                          padding-top: 20px;
+                          padding-left: 50px;} 
+
+.top-container .thirty-day {color:hsl(71, 73%, 54%);
+                            font-weight: 700;
+                            padding-left: 50px;
+                            padding-top: 0;
+                            font-size: 15px;}
+
+.top-container .gain-access {color: hsl(218, 22%, 67%);
+                             font-size: 14px;
+                             padding-left: 50px;
+                             line-height: 21px;
+                             padding-top: 10px;
+                             font-weight: 500;}
+
+.bottom-container {height: 48.5%;
+                   display: flex;
+                   flex-direction: row;}
+
+.bottom-container-left {background-color: hsl(179, 62%, 43%) ;
+                        width: 50%;
+                        height: 110%;
+                        display: flex;
+                        flex-direction: column;}
+
+.bottom-container-left .monthly {color: white;
+                                 font-size: 16px;
+                                 font-weight: 500;
+                                 padding-top: 30px;
+                                 padding-left: 50px;}
+
+.bottom-container-left .dollar {display: flex;
+                                flex-direction: row;
+                                padding-left: 50px;
+                                padding-top: 12px;
+                                gap: 12px;}
+
+.dollar .number {color: white;
+                 font-size: 27px;
+                 font-weight: 510;}
+
+.dollar .per {color: hsla(0, 0%, 100%, 0.75);
+              font-size: 14px;
+              padding-top: 9px;}
+
+.bottom-container-left .full-access {color: hsl(214, 50%, 94%);
+                                    font-size: 14px;
+                                    padding-left: 50px;
+                                    padding-top: 10px;}
+
+.bottom-container-left .button-class {display: flex;
+                                      padding-left: 50px;
+                                      padding-top: 25px;
+                                      height: 100%;}
+
+.bottom-container-left .button {background-color: hsl(71, 73%, 54%);
+                                display: flex;
+                                border-width: 1px;
+                                border-color: hsl(179, 62%, 43%);
+                                width: 80%;
+                                height: 40px;
+                                cursor: pointer;
+                                border-radius: 5px;
+                                color: white;
+                                font-weight: 540;
+                                font-size: 13px;
+                                align-items: center;
+                                justify-content: center}
+
+.bottom-container-right {background-color: hsl(179, 42%, 55%) ;
+                        width: 50%;
+                        height: 110%;
+                        display: flex;
+                        flex-direction: column;}
+
+.bottom-container-right .why {color: white;
+                             padding-left: 30px;
+                             padding-top: 30px;
+                             font-size: 16px;
+                             font-weight: 500;}
+
+.bottom-container-right .tutorials {color: hsl(214, 50%, 94%);
+                                    font-size: 13px;
+                                    padding-left: 30px;
+                                    padding-top: 12px;
+                                    line-height: 18px;}
+
+/* Mobile styles for Frontend Mentor Single Price Grid Component */
+@media (max-width: 650px) {
+  body {
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    min-height: 100vh;
+    padding: 20px 0;
+  }
+
+  .container {
+    width: 70vw;
+    min-width: 0;
+    max-width: 350px;
+    height: auto;
+    border-radius: 10px;
+    overflow: auto;
+    margin: 0 auto;
+  }
+
+  .top-container,
+  .bottom-container {
+    width: 100%;
+  }
+
+  .top-container {
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  .top-container .join-our,
+  .top-container .thirty-day,
+  .top-container .gain-access {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .bottom-container {
+    flex-direction: column;
+    height: auto;
+    }
+
+  .bottom-container-left
+   {
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  .bottom-container-right {width: 100%;
+                           height: auto;
+                           padding-bottom: 20px;
+                           line-height: 20px;}
+
+  .bottom-container-left .monthly,
+  .bottom-container-left .dollar,
+  .bottom-container-left .full-access,
+  .bottom-container-left .button-class,
+  .bottom-container-right .why,
+  .bottom-container-right .tutorials {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .bottom-container-left .button {
+    width: 100%;
+  }
+}
