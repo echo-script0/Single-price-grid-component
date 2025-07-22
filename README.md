@@ -30,7 +30,7 @@ It showcases the use of semantic HTML, custom font integration, Flexbox layout t
 ![Preview](image.png)
 
 ### Live Site Url
-https://echo-script0.github.io/Social-proof-section/
+https://echo-script0.github.io/Single-price-grid-component/
 
 ### Built with
 - Semantic HTML5 markup
